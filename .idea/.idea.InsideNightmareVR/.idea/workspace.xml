@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0eebc401-5379-4ba2-b2af-11eca5a10d95" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>m_controller</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/94C5F4C3-8CDC-42D2-B006-F8BADEF04394/0c/8cc7e1b7/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/94C5F4C3-8CDC-42D2-B006-F8BADEF04394/98/5af5419b/SerializeField.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRHapticsClip.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRGrabber.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Production/Scripts/CustomVRFunctions/CustomGrabbable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/18B38ADE-9B85-49A5-AFF4-B379F33ECCEC/6a/30b1f564/Physics.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Production/Scripts/CustomVRFunctions/CustomGrabber.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRGrabbable.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/CustomGrabber.cs" />
+        <option value="$PROJECT_DIR$/Assets/Production/Scripts/CustomVRFunctions/CutsomGrabbable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Production/Scripts/CustomVRFunctions/CustomGrabbable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Production/Scripts/CustomVRFunctions/CustomGrabber.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="1698" />
+    <option name="y" value="118" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
+      <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Oculus" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Oculus" type="1045f7f1:UnityExplorerNode" />
+              <item name="VR" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Oculus" type="1045f7f1:UnityExplorerNode" />
+              <item name="VR" type="1045f7f1:UnityExplorerNode" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Production" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Production" type="1045f7f1:UnityExplorerNode" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Production" type="1045f7f1:UnityExplorerNode" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="CustomVRFunctions" type="1045f7f1:UnityExplorerNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-hidden-items" value="false" />
+        <option name="show-project-names" value="true" />
+      </pane>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0eebc401-5379-4ba2-b2af-11eca5a10d95" name="Default Changelist" comment="" />
+      <created>1582314579646</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582314579646</updated>
+      <workItem from="1582314583141" duration="599000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7017000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="79" width="1936" height="1056" extended-state="7" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Unity" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Errors In Solution" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Unity" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Errors In Solution" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.probuilder@4.2.3/Runtime/Core/SharedVertex.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="145" selection-start-line="145" selection-end-line="145" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRHapticsClip.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <marker date="1581043615000" expanded="true" signature="0:971" ph="/* Copyright : Copyright (c) Facebook Technologies, LLC and its affiliates. All rights reserved. ... */" />
+            <marker date="1581043615000" expanded="false" signature="979:1017" ph="..." />
+            <marker date="1581043615000" expanded="true" signature="1019:1094" ph="/// A PCM buffer of data for a haptics effect. ... " />
+            <marker date="1581043615000" expanded="true" signature="1122:5151" ph="{...}" />
+            <marker date="1581043615000" expanded="true" signature="1126:1203" ph="/// The current number of samples in the clip. ... " />
+            <marker date="1581043615000" expanded="true" signature="1246:1330" ph="/// The maximum number of samples the clip can store. ... " />
+            <marker date="1581043615000" expanded="true" signature="1376:1432" ph="/// The raw haptics data. ... " />
+            <marker date="1581043615000" expanded="true" signature="1503:1637" ph="{...}" />
+            <marker date="1581043615000" expanded="true" signature="1640:1718" ph="/// Creates a clip with the specified capacity. ... " />
+            <marker date="1581043615000" expanded="true" signature="1755:1876" ph="{...}" />
+            <marker date="1581043615000" expanded="true" signature="1879:1953" ph="/// Creates a clip with the specified data. ... " />
+            <marker date="1581043615000" expanded="true" signature="2010:2154" ph="{...}" />
+            <marker date="1581043615000" expanded="true" signature="2157:2237" ph="/// Creates a clip by mixing the specified clips. ... " />
+            <marker date="1581043615000" expanded="true" signature="2296:3049" ph="{...}" />
+            <marker date="1581043615000" expanded="true" signature="2520:3046" ph="{...}" />
+            <marker date="1581043615000" expanded="true" signature="2573:3042" ph="{...}" />
+            <marker date="1581043615000" expanded="true" signature="3052:3140" ph="/// Creates a haptics clip from the specified audio clip. ... " />
+            <marker date="1581043615000" expanded="true" signature="3201:3410" ph="{...}" />
+            <marker date="1581043615000" expanded="true" signature="3413:3497" ph="/// Adds the specified sample to the end of the clip. ... " />
+            <marker date="1581043615000" expanded="true" signature="3570:3911" ph="{...}" />
+            <marker date="1581043615000" expanded="true" signature="3598:3738" ph="{...}" />
+            <marker date="1581043615000" expanded="true" signature="3787:3896" ph="{...}" />
+            <marker date="1581043615000" expanded="true" signature="3914:3990" ph="/// Clears the clip and resets its size to 0. ... " />
+            <marker date="1581043615000" expanded="true" signature="4011:4030" ph="{...}" />
+            <marker date="1581043615000" expanded="true" signature="4162:5149" ph="{...}" />
+            <marker date="1581043615000" expanded="true" signature="4670:5146" ph="{...}" />
+            <marker date="1581043615000" expanded="true" signature="4723:4857" ph="{...}" />
+            <marker date="1581043615000" expanded="true" signature="4983:5142" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/94C5F4C3-8CDC-42D2-B006-F8BADEF04394/98/5af5419b/SerializeField.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRGrabbable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1382">
+          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+          <folding>
+            <marker date="1581043157000" expanded="true" signature="0:971" ph="/* Copyright : Copyright (c) Facebook Technologies, LLC and its affiliates. All rights reserved. ... */" />
+            <marker date="1581043157000" expanded="false" signature="979:1005" ph="..." />
+            <marker date="1581043157000" expanded="true" signature="1007:1095" ph="/// An object that can be grabbed and thrown by OVRGrabber. ... " />
+            <marker date="1581043157000" expanded="true" signature="1137:4797" ph="{...}" />
+            <marker date="1581043157000" expanded="true" signature="1608:1688" ph="/// If true, the object can currently be grabbed. ... " />
+            <marker date="1581043157000" expanded="true" signature="1721:1776" ph="{...}" />
+            <marker date="1581043157000" expanded="true" signature="1779:1855" ph="/// If true, the object is currently grabbed. ... " />
+            <marker date="1581043157000" expanded="true" signature="1881:1937" ph="{...}" />
+            <marker date="1581043157000" expanded="true" signature="1940:2049" ph="/// If true, the object's position will snap to match snapOffset when grabbed. ... " />
+            <marker date="1581043157000" expanded="true" signature="2078:2129" ph="{...}" />
+            <marker date="1581043157000" expanded="true" signature="2132:2244" ph="/// If true, the object's orientation will snap to match snapOffset when grabbed. ... " />
+            <marker date="1581043157000" expanded="true" signature="2276:2330" ph="{...}" />
+            <marker date="1581043157000" expanded="true" signature="2333:2445" ph="/// An offset relative to the OVRGrabber where this object can snap when grabbed. ... " />
+            <marker date="1581043157000" expanded="true" signature="2477:2526" ph="{...}" />
+            <marker date="1581043157000" expanded="true" signature="2529:2618" ph="/// Returns the OVRGrabber currently grabbing this object. ... " />
+            <marker date="1581043157000" expanded="true" signature="2650:2698" ph="{...}" />
+            <marker date="1581043157000" expanded="true" signature="2701:2783" ph="/// The transform at which this object was grabbed. ... " />
+            <marker date="1581043157000" expanded="true" signature="2821:2885" ph="{...}" />
+            <marker date="1581043157000" expanded="true" signature="2888:2987" ph="/// The Rigidbody of the collider that was used to grab this object. ... " />
+            <marker date="1581043157000" expanded="true" signature="3025:3097" ph="{...}" />
+            <marker date="1581043157000" expanded="true" signature="3100:3185" ph="/// The contact point(s) where the object was grabbed. ... " />
+            <marker date="1581043157000" expanded="true" signature="3218:3267" ph="{...}" />
+            <marker date="1581043157000" expanded="true" signature="3270:3350" ph="/// Notifies the object that it has been grabbed. ... " />
+            <marker date="1581043157000" expanded="true" signature="3418:3562" ph="{...}" />
+            <marker date="1581043157000" expanded="true" signature="3565:3646" ph="/// Notifies the object that it has been released. ... " />
+            <marker date="1581043157000" expanded="true" signature="3724:3988" ph="{...}" />
+            <marker date="1581043157000" expanded="true" signature="4006:4485" ph="{...}" />
+            <marker date="1581043157000" expanded="true" signature="4050:4479" ph="{...}" />
+            <marker date="1581043157000" expanded="true" signature="4208:4368" ph="{...}" />
+            <marker date="1581043157000" expanded="true" signature="4521:4601" ph="{...}" />
+            <marker date="1581043157000" expanded="true" signature="4623:4795" ph="{...}" />
+            <marker date="1581043157000" expanded="true" signature="4662:4789" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Production/Scripts/CustomVRFunctions/CustomGrabbable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+          <folding>
+            <marker date="1582324270895" expanded="true" signature="66:494" ph="{...}" />
+            <marker date="1582324270895" expanded="true" signature="200:492" ph="{...}" />
+            <marker date="1582324270895" expanded="true" signature="334:477" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/18B38ADE-9B85-49A5-AFF4-B379F33ECCEC/6a/30b1f564/Physics.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="239" column="23" selection-start-line="239" selection-start-column="23" selection-end-line="239" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/Util/OVRGrabber.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="404" column="42" selection-start-line="404" selection-start-column="42" selection-end-line="404" selection-end-column="42" />
+          <folding>
+            <marker date="1582319299341" expanded="true" signature="0:971" ph="/* Copyright : Copyright (c) Facebook Technologies, LLC and its affiliates. All rights reserved. ... */" />
+            <marker date="1582319299341" expanded="false" signature="979:1025" ph="..." />
+            <marker date="1582319299341" expanded="true" signature="1027:1140" ph="/// Allows grabbing and throwing of objects with the OVRGrabbable component on them. ... " />
+            <marker date="1582319299341" expanded="true" signature="1218:14637" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="1407:1831" ph="/* Demonstrates parenting the held object to the hand's transform when grabbed. ... */" />
+            <marker date="1582319299341" expanded="true" signature="1905:2249" ph="/* If true, will move the hand to the transform specified by m_parentTransform, using MovePosition in ... */" />
+            <marker date="1582319299341" expanded="true" signature="2323:2502" ph="/* Child/attached transforms of the grabber, indicating where to snap held objects to (if you snap them). ... */" />
+            <marker date="1582319299341" expanded="true" signature="3514:3584" ph="/// The currently grabbed object. ... " />
+            <marker date="1582319299341" expanded="true" signature="3622:3671" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="3722:3918" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="3869:3912" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="3954:4476" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="4109:4470" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="4338:4460" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="4512:5174" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="4636:5045" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="4698:4801" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="4818:5035" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="5208:5252" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="5291:5381" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="5332:5378" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="5387:5650" ph="/* Hands follow the touch anchors by calling MovePosition each frame to reach the anchor. ... */" />
+            <marker date="1582319299341" expanded="true" signature="5678:6627" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="5693:5850" ph="/* Don't want to MovePosition multiple times in a frame, as it causes high judder in conjunction ... */" />
+            <marker date="1582319299341" expanded="true" signature="6117:6259" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="6293:6362" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="6649:6738" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="6689:6732" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="6787:7166" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="7214:7769" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="7539:7579" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="7606:7682" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="7695:7763" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="7827:8058" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="7898:7943" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="8009:8052" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="8098:11610" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="8376:9240" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="8494:8548" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="8615:9230" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="9013:9216" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="9365:11604" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="9419:9524" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="9854:10263" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="9983:10249" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="10280:10517" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="10564:10845" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="10693:10831" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="10862:11048" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="11062:11343" ph="/* Note: force teleport on grab, to avoid high-speed travel to dest which hits a lot of other objects at high ... */" />
+            <marker date="1582319299341" expanded="true" signature="11507:11594" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="11713:12350" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="11753:11793" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="12029:12187" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="12200:12344" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="12380:13232" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="12420:13135" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="13318:13557" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="13616:14026" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="13666:13706" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="13801:13927" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="13962:14020" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="14090:14219" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="14135:14213" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="14296:14635" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="14323:14632" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="14449:14628" ph="{...}" />
+            <marker date="1582319299341" expanded="true" signature="14566:14623" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Production/Scripts/CustomVRFunctions/CustomGrabber.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <marker date="1582326443959" expanded="false" signature="6:135" ph="..." />
+            <marker date="1582326443959" expanded="true" signature="217:4128" ph="{...}" />
+            <marker date="1582326443959" expanded="true" signature="535:575" ph="{...}" />
+            <marker date="1582326443959" expanded="true" signature="624:805" ph="{...}" />
+            <marker date="1582326443959" expanded="true" signature="689:799" ph="{...}" />
+            <marker date="1582326443959" expanded="true" signature="853:953" ph="{...}" />
+            <marker date="1582326443959" expanded="true" signature="972:2339" ph="{...}" />
+            <marker date="1582326443959" expanded="true" signature="1003:2315" ph="{...}" />
+            <marker date="1582326443959" expanded="true" signature="1436:2305" ph="{...}" />
+            <marker date="1582326443959" expanded="true" signature="1488:1992" ph="{...}" />
+            <marker date="1582326443959" expanded="true" signature="1662:1974" ph="{...}" />
+            <marker date="1582326443959" expanded="true" signature="1834:1952" ph="{...}" />
+            <marker date="1582326443959" expanded="true" signature="2401:2795" ph="{...}" />
+            <marker date="1582326443959" expanded="true" signature="2517:2559" ph="{...}" />
+            <marker date="1582326443959" expanded="true" signature="2612:2654" ph="{...}" />
+            <marker date="1582326443959" expanded="true" signature="2743:2788" ph="{...}" />
+            <marker date="1582326443959" expanded="true" signature="2825:4126" ph="{...}" />
+            <marker date="1582326443959" expanded="true" signature="2860:4112" ph="{...}" />
+            <marker date="1582326443959" expanded="true" signature="2904:3365" ph="{...}" />
+            <marker date="1582326443959" expanded="true" signature="3066:3351" ph="{...}" />
+            <marker date="1582326443959" expanded="true" signature="3226:3333" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
