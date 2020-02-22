@@ -1,5 +1,9 @@
+using System;
+using System.Collections.Generic;
 using Production.Plugins.RyanScriptableObjects.SOEvents.VoidEvents;
+using Production.Scripts.Components;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace Production.Scripts.Entities
 {
@@ -12,9 +16,12 @@ namespace Production.Scripts.Entities
         
         public InteractableObjects interactableObject;
         public VoidEvent interactionIsDoneEvent;
+
+        [SerializeField] private List<FeedBacks> FeedBacks = new List<FeedBacks>(); 
         private void Awake()
         {
             interactableObject.Initialize(gameObject);
+           
         }
 
         public void Interact(GameObject go)
@@ -22,9 +29,14 @@ namespace Production.Scripts.Entities
             if (IsActive)
             {
                 interactableObject.OnObjectIsInteracted(go);
+                interactionIsDoneEvent.Raise();
+                foreach (var feedBack in FeedBacks)
+                {
+                    feedBack.FeedBackComponent
+                        .OnFeedBackTrigger(feedBack.FeedBackDelay); //.FeedBackType.ActivateFeedBack(feedBack.feedBackcomponent);
+                }
                 Debug.Log("Interact");
             }
-            
         }
 
         public void OnSee(GameObject go)
@@ -57,5 +69,12 @@ namespace Production.Scripts.Entities
             }
             
         }
+    }
+
+    [Serializable]
+    public struct FeedBacks
+    {
+        public float FeedBackDelay;
+        public FeedBackComponent FeedBackComponent;
     }
 }

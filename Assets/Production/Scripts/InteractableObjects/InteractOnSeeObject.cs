@@ -17,7 +17,7 @@ namespace Production.Scripts.Entities
             if (go == ContainerGameObject && InteractionIsDone == false)
             {
                 IsSeen = true;
-                OnObjectIsInteracted(go);
+                go.GetComponent<InteractableObjectComponent>().Interact(go);
             }
            
         }
@@ -36,7 +36,6 @@ namespace Production.Scripts.Entities
             if (go == ContainerGameObject)
             {
                 InteractionIsDone = true;
-                go.GetComponent<InteractableObjectComponent>().interactionIsDoneEvent.Raise();
                 Debug.Log("Launch Interaction on " + go.name);
             }
         }
