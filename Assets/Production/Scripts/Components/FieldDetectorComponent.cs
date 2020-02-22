@@ -36,14 +36,14 @@ namespace Production.Scripts.Components
 
 			public float maskCutawayDst = .1f;
 
-			public MeshFilter viewMeshFilter;
+			//public MeshFilter viewMeshFilter;
 			Mesh viewMesh;
 
 			void Start()
 			{
 				viewMesh = new Mesh();
 				viewMesh.name = "View Mesh";
-				viewMeshFilter.mesh = viewMesh;
+				//viewMeshFilter.mesh = viewMesh;
 
 				StartCoroutine("FindTargetsWithDelay", ComputeDelay);
 			}
