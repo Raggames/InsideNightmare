@@ -1004,7 +1004,6 @@
               <e p="FieldDetectorComponent.cs" t="Include" />
               <e p="MouseCameraComponent.cs" t="Include" />
               <e p="PlayerMovementComponent.cs" t="Include" />
-              <e p="TeleportationComponent.cs" t="Include" />
             </e>
             <e p="CustomVRFunctions" t="Include">
               <e p="CustomGrabbable.cs" t="Include" />
@@ -1026,11 +1025,15 @@
               <e p="FeedBackParticule.cs" t="Include" />
               <e p="FeedBackSound.cs" t="Include" />
             </e>
-            <e p="InteractableObjects" t="Include">
+            <e p="InteractableObjectsSystem" t="Include">
               <e p="InteractableObjectComponent.cs" t="Include" />
               <e p="InteractableObjects.cs" t="Include" />
               <e p="InteractOnSeeObject.cs" t="Include" />
               <e p="InteractOnUnseeObject.cs" t="Include" />
+            </e>
+            <e p="TeleportationSystem" t="Include">
+              <e p="TeleportationComponent.cs" t="Include" />
+              <e p="TeleportationObject.cs" t="Include" />
             </e>
           </e>
         </e>
