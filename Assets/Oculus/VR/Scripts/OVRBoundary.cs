@@ -119,7 +119,7 @@ public class OVRBoundary
 
 	private static int cachedVector3fSize = Marshal.SizeOf(typeof(OVRPlugin.Vector3f));
 	private static OVRNativeBuffer cachedGeometryNativeBuffer = new OVRNativeBuffer(0);
-	private static float[] cachedGeometryManagedBuffer = new float[0];
+	private static float[] cachedGeometryManagedBuffer = new float[255];
 	private List<Vector3> cachedGeometryList = new List<Vector3>();
 	/// <summary>
 	/// Returns an array of 3d points (in clockwise order) that define the specified boundary type.
@@ -140,7 +140,7 @@ public class OVRBoundary
 			return null;
 		}
 
-		int pointsCount = 255;
+		int pointsCount = 0;
 		if (OVRPlugin.GetBoundaryGeometry2((OVRPlugin.BoundaryType)boundaryType, IntPtr.Zero, ref pointsCount))
 		{
 			if (pointsCount > 0)
@@ -174,7 +174,7 @@ public class OVRBoundary
 			}
 		}
 
-		return new Vector3[0];
+		return new Vector3[pointsCount];
 	}
 
 	/// <summary>

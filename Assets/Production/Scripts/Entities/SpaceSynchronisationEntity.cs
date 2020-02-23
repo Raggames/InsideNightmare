@@ -14,21 +14,13 @@ namespace Production.Scripts.Entities
     {
 
         public Transform worldAnchor;
-        public OVRManager OvrManager;
-        public Transform CenterPoint;
         public TextMeshProUGUI position;
         public TextMeshProUGUI trackerPos;
-        private Mesh viewMesh;
-        public MeshFilter viewMeshFilter;
-
-
-        public GameObject Cube;
+       
+        public LineRenderer ZoneGuardian;
       
         private void Start()
         {
-            viewMesh = new Mesh();
-            viewMeshFilter.mesh = viewMesh;
-            
             MovePlayerInVirtualSpaceRelativeToRealSpace();
         }
 
@@ -44,24 +36,34 @@ namespace Production.Scripts.Entities
         
         void MovePlayerInVirtualSpaceRelativeToRealSpace()
         {
-            OVRPlugin.SetBoundaryVisible(true);
-           // var poses = OVRPlugin.GetBoundaryGeometry(OVRPlugin.BoundaryType.OuterBoundary);
-            Debug.Log(OVRPlugin.version);
-           Test();
            
-           if (OVRManager.boundary.GetConfigured())
-           {
-              
-               Vector3[] boundaryPosition = OVRManager.boundary.GetGeometry(OVRBoundary.BoundaryType.OuterBoundary);
-               int index = 0;
-               foreach (var v in boundaryPosition)
-               {
-                   Instantiate(Cube, boundaryPosition[index], Quaternion.identity);
-                   index++;
-               }
-               trackerPos.text = boundaryPosition.Length.ToString();
-           }
+           // position.text = "Point Counts = " + OVRPlugin.GetBoundaryGeometry(OVRPlugin.BoundaryType.OuterBoundary).PointsCount.ToString()+  "  player Position = " + transform.position;
+           /*
+            OVRPlugin.Vector3f[] arrayf = OVRPlugin.GetBoundaryGeometry(OVRPlugin.BoundaryType.OuterBoundary).Points;
+            Vector3[] positions = new Vector3[arrayf.Length];
+            for (int i = 0; i < arrayf.Length; i++)
+            {
+                positions[i] = arrayf[i].FromVector3f();
+                positions[i].y = 1;
+            }
+            ZoneGuardin.SetPositions(positions);
             
+            */
+            
+            if (OVRManager.boundary.GetConfigured())
+               {
+                  
+                   Vector3[] boundaryPosition = OVRManager.boundary.GetGeometry(OVRBoundary.BoundaryType.OuterBoundary);
+                   for (int i = 0; i < boundaryPosition.Length; i++)
+                   {
+                       boundaryPosition[i].y = 1;
+                   }
+
+                   ZoneGuardian.positionCount = boundaryPosition.Length;
+                   ZoneGuardian.SetPositions(boundaryPosition);
+                   trackerPos.text = boundaryPosition.Length.ToString()  + " " + OVRManager.boundary.GetConfigured() + boundaryPosition[127];
+               }
+                
           
             //Vector3 guardianDirection = boundaryPosition[0];
             //float Angle = Vector3.Angle(worldAnchor.position, guardianDirection);
@@ -73,51 +75,8 @@ namespace Production.Scripts.Entities
 
         }
 
-        public void GenerateMesh(Vector3[] points)
-        {
-            Vector3[] vertices = new Vector3[points.Length];
-            int[] triangles = new int[(points.Length - 2) * 3];
-
-            vertices[0] = Vector3.zero;
-            for (int i = 0; i < points.Length - 1; i++)
-            {
-                vertices[i + 1] = transform.InverseTransformPoint(points[i]) + Vector3.forward * 0.1f;
-
-                if (i < points.Length - 2)
-                {
-                    triangles[i * 3] = 0;
-                    triangles[i * 3 + 1] = i + 1;
-                    triangles[i * 3 + 2] = i + 2;
-                }
-            }
-            viewMesh.Clear();
-            viewMesh.vertices = vertices;
-            viewMesh.triangles = triangles;
-            viewMesh.RecalculateNormals();
-        }
-
-        public List<Vector3> TryGetGeometryBoundary(OVRBoundary.BoundaryType m_boundaryType)
-        {
-            List<Vector3> positions = new List<Vector3>();
-            Vector3[] boundaryPoints = OVRManager.boundary.GetGeometry(m_boundaryType);
-            Vector3 v;
-            for(int i=0; i<boundaryPoints.Length; ++i)
-            {
-                    v = boundaryPoints[i];
-                    v.y = 0.0f;
-                    positions.Add(v);
-            }
-                v = boundaryPoints[0];
-                v.y = 0.0f;
-            return positions;
-        }
-
-        void Test()
-        {
-            XRInputSubsystem system = new XRInputSubsystem();
-            system.TryGetBoundaryPoints(OVRManager.boundary.GetGeometry(OVRBoundary.BoundaryType.OuterBoundary).ToList());
-            Debug.Log(system.TryGetBoundaryPoints(OVRManager.boundary.GetGeometry(OVRBoundary.BoundaryType.OuterBoundary).ToList()));
-        }
+        
+       
     }
 
    
