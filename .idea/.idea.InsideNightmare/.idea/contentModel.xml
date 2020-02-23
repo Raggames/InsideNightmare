@@ -901,6 +901,11 @@
                 <e p="BoolEventListener.cs" t="Include" />
                 <e p="UnityBoolEvent.cs" t="Include" />
               </e>
+              <e p="GameDataEvent" t="Include">
+                <e p="GameDataEvent.cs" t="Include" />
+                <e p="GameDataEventListener.cs" t="Include" />
+                <e p="UnityGameDataEvent.cs" t="Include" />
+              </e>
               <e p="GameObjectEvents" t="Include">
                 <e p="GameObjectEvent.cs" t="Include" />
                 <e p="GameObjectEventListener.cs" t="Include" />
@@ -999,10 +1004,15 @@
               <e p="FieldDetectorComponent.cs" t="Include" />
               <e p="MouseCameraComponent.cs" t="Include" />
               <e p="PlayerMovementComponent.cs" t="Include" />
+              <e p="TeleportationComponent.cs" t="Include" />
             </e>
             <e p="CustomVRFunctions" t="Include">
               <e p="CustomGrabbable.cs" t="Include" />
               <e p="CustomGrabber.cs" t="Include" />
+            </e>
+            <e p="Data" t="Include">
+              <e p="DataManager.cs" t="Include" />
+              <e p="GameData.cs" t="Include" />
             </e>
             <e p="Entities" t="Include">
               <e p="PatternEntity.cs" t="Include" />
@@ -1016,7 +1026,6 @@
               <e p="FeedBackParticule.cs" t="Include" />
               <e p="FeedBackSound.cs" t="Include" />
             </e>
-            <e p="GameData.cs" t="Include" />
             <e p="InteractableObjects" t="Include">
               <e p="InteractableObjectComponent.cs" t="Include" />
               <e p="InteractableObjects.cs" t="Include" />

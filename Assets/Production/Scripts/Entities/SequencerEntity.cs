@@ -14,17 +14,25 @@ namespace Production.Scripts.Entities
         public bool SequenceIsComplete;
         private void Start()
         {
-            if(!GameData.NewGame) PatternIndex = GameData.PatternIndex;
-            else
-            {
-                PatternIndex = 0;
-                GameData.PatternIndex = 0;
-            }
+            if (GameData.NewGame) PatternIndex = 0; 
             InitializePatterns();
-            
-            
         }
 
+        #region Data
+
+        public void SaveSequencerEntity(GameData gameData)
+        {
+            GameData.PatternIndex = PatternIndex;
+        }
+
+        public void LoadSequencerEntity(GameData gameData)
+        {
+           PatternIndex = gameData.PatternIndex;
+        }
+        
+        #endregion
+        
+        
         void InitializePatterns()
         {
             for (int i = 0; i < PatternEntities.Count; i++)
