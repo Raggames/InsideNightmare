@@ -21,7 +21,7 @@ namespace Production.Scripts.Components
             _collider.isTrigger = true;
         }
 
-        private void Teleport(Vector3 toDestination, Vector3 toAim)
+        public void Teleport(Vector3 toDestination, Vector3 toAim = new Vector3(), Quaternion rot = new Quaternion())
         {
             OnPlayerIsTeleporting.Raise(true);
             _fieldDetectorComponent.Teleporting = true;
@@ -30,7 +30,9 @@ namespace Production.Scripts.Components
             characterController.enabled = false;
             characterController.transform.position = toDestination;
             
-            characterController.transform.LookAt(toAim);
+            //characterController.transform.LookAt(toAim);
+            var Angle = Quaternion.Angle(characterController.transform.rotation, rot);
+            characterController.transform.Rotate(Vector3.up, Angle);
             characterController.enabled = true;
             ovrPlayerController.EnableLinearMovement = true;
             ovrPlayerController.EnableRotation = true;

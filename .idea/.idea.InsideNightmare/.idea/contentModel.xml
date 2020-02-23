@@ -1017,6 +1017,7 @@
               <e p="PatternEntity.cs" t="Include" />
               <e p="PlayerEntity.cs" t="Include" />
               <e p="SequencerEntity.cs" t="Include" />
+              <e p="SpaceSynchronisationEntity.cs" t="Include" />
             </e>
             <e p="FeedBackSystem" t="Include">
               <e p="AbstractFeedBack.cs" t="Include" />
