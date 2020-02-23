@@ -3,6 +3,7 @@ using UnityEngine.UI;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 
 // Draws the guardian bounds. 
 public class GuardianBoundaryDisplay : MonoBehaviour
@@ -18,7 +19,7 @@ public class GuardianBoundaryDisplay : MonoBehaviour
     // This isn't a solution a shipping app would use-- it's just because
     // the demo makes no sense without bounds.
     public GameObject m_errorDisplay;
-
+    public List<Vector3> position = new List<Vector3>();
     void Start()
     {
         m_enforcer.TrackingChanged += RefreshDisplay;
@@ -46,6 +47,8 @@ public class GuardianBoundaryDisplay : MonoBehaviour
                 v.y = 0.0f;
                 lr.SetPosition(i, v);
             }
+
+            position = boundaryPoints.ToList();
             v = boundaryPoints[0];
             v.y = 0.0f;
             lr.SetPosition(boundaryPoints.Length, v);

@@ -140,7 +140,7 @@ public class OVRBoundary
 			return null;
 		}
 
-		int pointsCount = 0;
+		int pointsCount = 255;
 		if (OVRPlugin.GetBoundaryGeometry2((OVRPlugin.BoundaryType)boundaryType, IntPtr.Zero, ref pointsCount))
 		{
 			if (pointsCount > 0)
