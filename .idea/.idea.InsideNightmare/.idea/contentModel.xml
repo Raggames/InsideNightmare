@@ -1036,6 +1036,9 @@
               <e p="TeleportationComponent.cs" t="Include" />
               <e p="TeleportationObject.cs" t="Include" />
             </e>
+            <e p="Utils" t="Include">
+              <e p="DebugHelper.cs" t="Include" />
+            </e>
           </e>
         </e>
         <e p="TextMesh Pro" t="Include">
