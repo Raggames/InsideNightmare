@@ -13,18 +13,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Production/Scripts/Entities/SpaceSynchronisationEntity.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="55" column="86" selection-start-line="55" selection-start-column="86" selection-end-line="55" selection-end-column="86" />
+            <state relative-caret-position="450">
+              <caret line="38" column="66" lean-forward="true" selection-start-line="38" selection-start-column="66" selection-end-line="38" selection-end-column="66" />
               <folding>
-                <marker date="1582496205716" expanded="false" signature="6:231" ph="..." />
-                <marker date="1582496205716" expanded="true" signature="270:2498" ph="{...}" />
-                <marker date="1582496205716" expanded="true" signature="332:2491" ph="{...}" />
-                <marker date="1582496205716" expanded="true" signature="547:628" ph="{...}" />
-                <marker date="1582496205716" expanded="true" signature="663:830" ph="{...}" />
-                <marker date="1582496205716" expanded="true" signature="729:820" ph="{...}" />
-                <marker date="1582496205716" expanded="true" signature="899:2467" ph="{...}" />
-                <marker date="1582496205716" expanded="true" signature="1121:1553" ph="/* OVRPlugin.Vector3f[] arrayf = OVRPlugin.GetBoundaryGeometry(OVRPlugin.BoundaryType.OuterBoundary).Points; ... */" />
-                <marker date="1582496205716" expanded="true" signature="1606:2426" ph="{...}" />
+                <marker date="1582497643246" expanded="false" signature="6:231" ph="..." />
+                <marker date="1582497643246" expanded="true" signature="270:1487" ph="{...}" />
+                <marker date="1582497643246" expanded="true" signature="332:1480" ph="{...}" />
+                <marker date="1582497643246" expanded="true" signature="460:627" ph="{...}" />
+                <marker date="1582497643246" expanded="true" signature="526:617" ph="{...}" />
+                <marker date="1582497643246" expanded="true" signature="696:1474" ph="{...}" />
+                <marker date="1582497643246" expanded="true" signature="759:1464" ph="{...}" />
+                <marker date="1582497643246" expanded="true" signature="1031:1447" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -668,12 +667,12 @@
       <workItem from="1582328836754" duration="8935000" />
       <workItem from="1582460455616" duration="86000" />
       <workItem from="1582460602262" duration="28432000" />
-      <workItem from="1582494386514" duration="1818000" />
+      <workItem from="1582494386514" duration="3836000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39271000" />
+    <option name="totallyTimeSpent" value="41289000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -3347,18 +3346,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Production/Scripts/Entities/SpaceSynchronisationEntity.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="55" column="86" selection-start-line="55" selection-start-column="86" selection-end-line="55" selection-end-column="86" />
+        <state relative-caret-position="450">
+          <caret line="38" column="66" lean-forward="true" selection-start-line="38" selection-start-column="66" selection-end-line="38" selection-end-column="66" />
           <folding>
-            <marker date="1582496205716" expanded="false" signature="6:231" ph="..." />
-            <marker date="1582496205716" expanded="true" signature="270:2498" ph="{...}" />
-            <marker date="1582496205716" expanded="true" signature="332:2491" ph="{...}" />
-            <marker date="1582496205716" expanded="true" signature="547:628" ph="{...}" />
-            <marker date="1582496205716" expanded="true" signature="663:830" ph="{...}" />
-            <marker date="1582496205716" expanded="true" signature="729:820" ph="{...}" />
-            <marker date="1582496205716" expanded="true" signature="899:2467" ph="{...}" />
-            <marker date="1582496205716" expanded="true" signature="1121:1553" ph="/* OVRPlugin.Vector3f[] arrayf = OVRPlugin.GetBoundaryGeometry(OVRPlugin.BoundaryType.OuterBoundary).Points; ... */" />
-            <marker date="1582496205716" expanded="true" signature="1606:2426" ph="{...}" />
+            <marker date="1582497643246" expanded="false" signature="6:231" ph="..." />
+            <marker date="1582497643246" expanded="true" signature="270:1487" ph="{...}" />
+            <marker date="1582497643246" expanded="true" signature="332:1480" ph="{...}" />
+            <marker date="1582497643246" expanded="true" signature="460:627" ph="{...}" />
+            <marker date="1582497643246" expanded="true" signature="526:617" ph="{...}" />
+            <marker date="1582497643246" expanded="true" signature="696:1474" ph="{...}" />
+            <marker date="1582497643246" expanded="true" signature="759:1464" ph="{...}" />
+            <marker date="1582497643246" expanded="true" signature="1031:1447" ph="{...}" />
           </folding>
         </state>
       </provider>

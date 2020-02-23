@@ -14,16 +14,8 @@ namespace Production.Scripts.Entities
     {
 
         public Transform worldAnchor;
-        public TextMeshProUGUI position;
-        public TextMeshProUGUI trackerPos;
-       
         public LineRenderer ZoneGuardian;
       
-        private void Start()
-        {
-            //MovePlayerInVirtualSpaceRelativeToRealSpace();
-        }
-
         private void LateUpdate()
         {
             if (OVRInput.GetDown(OVRInput.RawButton.A))
@@ -39,14 +31,13 @@ namespace Production.Scripts.Entities
                {
                    Vector3[] boundaryPosition = OVRManager.boundary.GetGeometry(OVRBoundary.BoundaryType.OuterBoundary);
                    DebugHelper.Instance.Log(boundaryPosition.Length.ToString());
-                   if (boundaryPosition.Length >= 255)
+                   if (boundaryPosition.Length >= 4)
                    {
                        ZoneGuardian.positionCount = boundaryPosition.Length;
                        ZoneGuardian.SetPositions(boundaryPosition);
-                       Vector3 guardianDirection = boundaryPosition[0]-boundaryPosition[192];
-                       float Angle = Vector3.Angle(worldAnchor.position+Vector3.forward, guardianDirection);
+                       int boundaryCornerIndex = boundaryPosition.Length / 4*3;
                        worldAnchor.position = boundaryPosition[0];
-                       worldAnchor.Rotate(Vector3.up, -Angle);
+                       worldAnchor.LookAt(boundaryPosition[boundaryCornerIndex]);
                    }
                }
         }
