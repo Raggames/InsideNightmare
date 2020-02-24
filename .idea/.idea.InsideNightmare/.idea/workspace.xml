@@ -63,38 +63,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Production/Scripts/CustomVRFunctions/CustomGrabber.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="61" column="81" selection-start-line="61" selection-start-column="81" selection-end-line="61" selection-end-column="81" />
+            <state relative-caret-position="463">
+              <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
               <folding>
-                <marker date="1582556146523" expanded="false" signature="6:135" ph="..." />
-                <marker date="1582556146523" expanded="true" signature="217:5720" ph="{...}" />
-                <marker date="1582556146523" expanded="true" signature="870:910" ph="{...}" />
-                <marker date="1582556146523" expanded="true" signature="959:1354" ph="{...}" />
-                <marker date="1582556146523" expanded="true" signature="1078:1188" ph="{...}" />
-                <marker date="1582556146523" expanded="true" signature="1231:1348" ph="{...}" />
-                <marker date="1582556146523" expanded="true" signature="1402:1596" ph="{...}" />
-                <marker date="1582556146523" expanded="true" signature="1619:2330" ph="{...}" />
-                <marker date="1582556146523" expanded="true" signature="1717:2324" ph="{...}" />
-                <marker date="1582556146523" expanded="true" signature="2348:3698" ph="{...}" />
-                <marker date="1582556146523" expanded="true" signature="2380:3692" ph="{...}" />
-                <marker date="1582556146523" expanded="true" signature="2813:3682" ph="{...}" />
-                <marker date="1582556146523" expanded="true" signature="2865:3369" ph="{...}" />
-                <marker date="1582556146523" expanded="true" signature="3039:3351" ph="{...}" />
-                <marker date="1582556146523" expanded="true" signature="3211:3329" ph="{...}" />
-                <marker date="1582556146523" expanded="true" signature="3760:4387" ph="{...}" />
-                <marker date="1582556146523" expanded="true" signature="3861:3903" ph="{...}" />
-                <marker date="1582556146523" expanded="true" signature="3940:3982" ph="{...}" />
-                <marker date="1582556146523" expanded="true" signature="4071:4116" ph="{...}" />
-                <marker date="1582556146523" expanded="true" signature="4211:4257" ph="{...}" />
-                <marker date="1582556146523" expanded="true" signature="4299:4380" ph="{...}" />
-                <marker date="1582556146523" expanded="true" signature="4417:5718" ph="{...}" />
-                <marker date="1582556146523" expanded="true" signature="4452:5704" ph="{...}" />
-                <marker date="1582556146523" expanded="true" signature="4496:4957" ph="{...}" />
-                <marker date="1582556146523" expanded="true" signature="4658:4943" ph="{...}" />
-                <marker date="1582556146523" expanded="true" signature="4818:4925" ph="{...}" />
+                <marker date="1582556920403" expanded="false" signature="6:135" ph="..." />
+                <marker date="1582556920403" expanded="true" signature="217:5710" ph="{...}" />
+                <marker date="1582556920403" expanded="true" signature="870:910" ph="{...}" />
+                <marker date="1582556920403" expanded="true" signature="959:1354" ph="{...}" />
+                <marker date="1582556920403" expanded="true" signature="1078:1188" ph="{...}" />
+                <marker date="1582556920403" expanded="true" signature="1231:1348" ph="{...}" />
+                <marker date="1582556920403" expanded="true" signature="1402:1596" ph="{...}" />
+                <marker date="1582556920403" expanded="true" signature="1619:2330" ph="{...}" />
+                <marker date="1582556920403" expanded="true" signature="1717:2324" ph="{...}" />
+                <marker date="1582556920403" expanded="true" signature="2348:3698" ph="{...}" />
+                <marker date="1582556920403" expanded="true" signature="2380:3692" ph="{...}" />
+                <marker date="1582556920403" expanded="true" signature="2813:3682" ph="{...}" />
+                <marker date="1582556920403" expanded="true" signature="2865:3369" ph="{...}" />
+                <marker date="1582556920403" expanded="true" signature="3039:3351" ph="{...}" />
+                <marker date="1582556920403" expanded="true" signature="3211:3329" ph="{...}" />
+                <marker date="1582556920403" expanded="true" signature="3760:4377" ph="{...}" />
+                <marker date="1582556920403" expanded="true" signature="3861:3903" ph="{...}" />
+                <marker date="1582556920403" expanded="true" signature="3940:3982" ph="{...}" />
+                <marker date="1582556920403" expanded="true" signature="4071:4116" ph="{...}" />
+                <marker date="1582556920403" expanded="true" signature="4201:4247" ph="{...}" />
+                <marker date="1582556920403" expanded="true" signature="4289:4370" ph="{...}" />
+                <marker date="1582556920403" expanded="true" signature="4407:5708" ph="{...}" />
+                <marker date="1582556920403" expanded="true" signature="4442:5694" ph="{...}" />
+                <marker date="1582556920403" expanded="true" signature="4486:4947" ph="{...}" />
+                <marker date="1582556920403" expanded="true" signature="4648:4933" ph="{...}" />
+                <marker date="1582556920403" expanded="true" signature="4808:4915" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -119,7 +119,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/Production/Scripts/CustomVRFunctions/CustomGrabbable.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
               <folding>
                 <marker date="1582327148466" expanded="true" signature="66:494" ph="{...}" />
                 <marker date="1582327148466" expanded="true" signature="200:492" ph="{...}" />
@@ -154,11 +154,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Production/Scripts/FeedBackSystem/FeedBackSound.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <marker date="1582556665019" expanded="true" signature="59:787" ph="{...}" />
                 <marker date="1582556665019" expanded="true" signature="203:785" ph="{...}" />
@@ -333,13 +333,13 @@
         <option value="$PROJECT_DIR$/Assets/Production/Scripts/Entities/SpaceSynchronisationEntity.cs" />
         <option value="$PROJECT_DIR$/Assets/Production/Scripts/TeleportationSystem/TeleportationComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/Production/Scripts/CustomVRFunctions/CustomInteractable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Production/Scripts/CustomVRFunctions/CustomGrabber.cs" />
         <option value="$PROJECT_DIR$/Assets/Production/Scripts/InteractableObjectsSystem/InteractableObjectComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/Production/Scripts/FeedBackSystem/FeedBackSound.cs" />
+        <option value="$PROJECT_DIR$/Assets/Production/Scripts/CustomVRFunctions/CustomGrabber.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -487,12 +487,12 @@
       <workItem from="1582460455616" duration="86000" />
       <workItem from="1582460602262" duration="28432000" />
       <workItem from="1582494386514" duration="11479000" />
-      <workItem from="1582550516787" duration="5852000" />
+      <workItem from="1582550516787" duration="6705000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54784000" />
+    <option name="totallyTimeSpent" value="55637000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -504,8 +504,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26439232" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -3093,46 +3092,11 @@
     <entry file="file://$PROJECT_DIR$/Assets/Production/Scripts/CustomVRFunctions/CustomGrabbable.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
           <folding>
             <marker date="1582327148466" expanded="true" signature="66:494" ph="{...}" />
             <marker date="1582327148466" expanded="true" signature="200:492" ph="{...}" />
             <marker date="1582327148466" expanded="true" signature="334:477" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Production/Scripts/CustomVRFunctions/CustomGrabber.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="61" column="81" selection-start-line="61" selection-start-column="81" selection-end-line="61" selection-end-column="81" />
-          <folding>
-            <marker date="1582556146523" expanded="false" signature="6:135" ph="..." />
-            <marker date="1582556146523" expanded="true" signature="217:5720" ph="{...}" />
-            <marker date="1582556146523" expanded="true" signature="870:910" ph="{...}" />
-            <marker date="1582556146523" expanded="true" signature="959:1354" ph="{...}" />
-            <marker date="1582556146523" expanded="true" signature="1078:1188" ph="{...}" />
-            <marker date="1582556146523" expanded="true" signature="1231:1348" ph="{...}" />
-            <marker date="1582556146523" expanded="true" signature="1402:1596" ph="{...}" />
-            <marker date="1582556146523" expanded="true" signature="1619:2330" ph="{...}" />
-            <marker date="1582556146523" expanded="true" signature="1717:2324" ph="{...}" />
-            <marker date="1582556146523" expanded="true" signature="2348:3698" ph="{...}" />
-            <marker date="1582556146523" expanded="true" signature="2380:3692" ph="{...}" />
-            <marker date="1582556146523" expanded="true" signature="2813:3682" ph="{...}" />
-            <marker date="1582556146523" expanded="true" signature="2865:3369" ph="{...}" />
-            <marker date="1582556146523" expanded="true" signature="3039:3351" ph="{...}" />
-            <marker date="1582556146523" expanded="true" signature="3211:3329" ph="{...}" />
-            <marker date="1582556146523" expanded="true" signature="3760:4387" ph="{...}" />
-            <marker date="1582556146523" expanded="true" signature="3861:3903" ph="{...}" />
-            <marker date="1582556146523" expanded="true" signature="3940:3982" ph="{...}" />
-            <marker date="1582556146523" expanded="true" signature="4071:4116" ph="{...}" />
-            <marker date="1582556146523" expanded="true" signature="4211:4257" ph="{...}" />
-            <marker date="1582556146523" expanded="true" signature="4299:4380" ph="{...}" />
-            <marker date="1582556146523" expanded="true" signature="4417:5718" ph="{...}" />
-            <marker date="1582556146523" expanded="true" signature="4452:5704" ph="{...}" />
-            <marker date="1582556146523" expanded="true" signature="4496:4957" ph="{...}" />
-            <marker date="1582556146523" expanded="true" signature="4658:4943" ph="{...}" />
-            <marker date="1582556146523" expanded="true" signature="4818:4925" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -3190,13 +3154,48 @@
     <entry file="file://$PROJECT_DIR$/Assets/Production/Scripts/FeedBackSystem/FeedBackSound.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <marker date="1582556665019" expanded="true" signature="59:787" ph="{...}" />
             <marker date="1582556665019" expanded="true" signature="203:785" ph="{...}" />
             <marker date="1582556665019" expanded="true" signature="354:481" ph="{...}" />
             <marker date="1582556665019" expanded="true" signature="558:648" ph="{...}" />
             <marker date="1582556665019" expanded="true" signature="717:779" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Production/Scripts/CustomVRFunctions/CustomGrabber.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
+          <folding>
+            <marker date="1582556920403" expanded="false" signature="6:135" ph="..." />
+            <marker date="1582556920403" expanded="true" signature="217:5710" ph="{...}" />
+            <marker date="1582556920403" expanded="true" signature="870:910" ph="{...}" />
+            <marker date="1582556920403" expanded="true" signature="959:1354" ph="{...}" />
+            <marker date="1582556920403" expanded="true" signature="1078:1188" ph="{...}" />
+            <marker date="1582556920403" expanded="true" signature="1231:1348" ph="{...}" />
+            <marker date="1582556920403" expanded="true" signature="1402:1596" ph="{...}" />
+            <marker date="1582556920403" expanded="true" signature="1619:2330" ph="{...}" />
+            <marker date="1582556920403" expanded="true" signature="1717:2324" ph="{...}" />
+            <marker date="1582556920403" expanded="true" signature="2348:3698" ph="{...}" />
+            <marker date="1582556920403" expanded="true" signature="2380:3692" ph="{...}" />
+            <marker date="1582556920403" expanded="true" signature="2813:3682" ph="{...}" />
+            <marker date="1582556920403" expanded="true" signature="2865:3369" ph="{...}" />
+            <marker date="1582556920403" expanded="true" signature="3039:3351" ph="{...}" />
+            <marker date="1582556920403" expanded="true" signature="3211:3329" ph="{...}" />
+            <marker date="1582556920403" expanded="true" signature="3760:4377" ph="{...}" />
+            <marker date="1582556920403" expanded="true" signature="3861:3903" ph="{...}" />
+            <marker date="1582556920403" expanded="true" signature="3940:3982" ph="{...}" />
+            <marker date="1582556920403" expanded="true" signature="4071:4116" ph="{...}" />
+            <marker date="1582556920403" expanded="true" signature="4201:4247" ph="{...}" />
+            <marker date="1582556920403" expanded="true" signature="4289:4370" ph="{...}" />
+            <marker date="1582556920403" expanded="true" signature="4407:5708" ph="{...}" />
+            <marker date="1582556920403" expanded="true" signature="4442:5694" ph="{...}" />
+            <marker date="1582556920403" expanded="true" signature="4486:4947" ph="{...}" />
+            <marker date="1582556920403" expanded="true" signature="4648:4933" ph="{...}" />
+            <marker date="1582556920403" expanded="true" signature="4808:4915" ph="{...}" />
           </folding>
         </state>
       </provider>

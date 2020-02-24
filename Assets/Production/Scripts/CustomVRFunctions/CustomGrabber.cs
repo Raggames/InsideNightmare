@@ -114,7 +114,7 @@ public class CustomGrabber : MonoBehaviour
             OnRelease();
         }
 
-        if (OVRInput.GetDown(OVRInput.RawButton.A) || OVRInput.GetDown(OVRInput.RawButton.X))
+        if (OVRInput.Get(OVRInput.Axis1D.PrimaryIndexTrigger, m_controller) > 0.3f)
         {
             OnInteract();
         }
