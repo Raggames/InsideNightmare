@@ -30,9 +30,16 @@ namespace Production.Scripts.Components
             characterController.enabled = false;
             characterController.transform.position = toDestination;
             
-            //characterController.transform.LookAt(toAim);
-            var Angle = Quaternion.Angle(characterController.transform.rotation, rot);
-            characterController.transform.Rotate(Vector3.up, Angle);
+            if(toAim != new Vector3())
+            {
+                characterController.transform.LookAt(toAim);
+            }
+
+            if (rot != new Quaternion())
+            {
+                characterController.transform.rotation = rot;
+            }
+            
             characterController.enabled = true;
             ovrPlayerController.EnableLinearMovement = true;
             ovrPlayerController.EnableRotation = true;
