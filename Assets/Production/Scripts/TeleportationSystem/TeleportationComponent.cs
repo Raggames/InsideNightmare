@@ -26,7 +26,7 @@ namespace Production.Scripts.Components
             OnPlayerIsTeleporting.Raise(true);
             _fieldDetectorComponent.Teleporting = true;
             ovrPlayerController.EnableLinearMovement = false;
-            ovrPlayerController.EnableRotation = false;
+            //ovrPlayerController.EnableRotation = false;
             characterController.enabled = false;
             characterController.transform.position = toDestination;
             
@@ -42,7 +42,7 @@ namespace Production.Scripts.Components
             
             characterController.enabled = true;
             ovrPlayerController.EnableLinearMovement = true;
-            ovrPlayerController.EnableRotation = true;
+            //ovrPlayerController.EnableRotation = true;
             OnPlayerIsTeleporting.Raise(false);
             _fieldDetectorComponent.Teleporting = false;
         }

@@ -11,10 +11,16 @@ public class CustomGrabber : MonoBehaviour
     protected OVRInput.Controller m_controller;
 
     [SerializeField] protected bool IsGrabbing;
-    
+    [SerializeField] protected bool IsInteracting;
     [SerializeField] private CustomGrabbable Grabbed;
+    [SerializeField] private CustomInteractable Interacted;
     [SerializeField] private List<Collider> grabbableObjects = new List<Collider>();
+    [SerializeField] private List<Collider> interactableObjects = new List<Collider>();
+    
     public GameObject m_player;
+    
+    public LayerMask Grabbable;//objet attrappable
+    public LayerMask Interactable;//objet uniquement interagissable en touchant
     
     void Start()
     {
@@ -23,20 +29,44 @@ public class CustomGrabber : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        Debug.Log(other.gameObject.layer + " layer");
         if (other.gameObject.layer == 10)//Layer Grabbable
         {
            if(!grabbableObjects.Find(item => item == other)) grabbableObjects.Add(other);
+        }
+
+        if (other.gameObject.layer == 14)
+        {
+            if(!interactableObjects.Find(item => item == other)) interactableObjects.Add(other);
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
         if(grabbableObjects.Find(item=> item == other)) grabbableObjects.Remove(other);
+        if(interactableObjects.Find(item=> item == other)) interactableObjects.Remove(other);
     }
 
+    void OnInteract()
+    {
+        Debug.Log("OnInteract");
+        if (!IsInteracting && interactableObjects.Count>0)
+        {
+            interactableObjects.Sort(delegate(Collider collider1, Collider collider2)
+            {
+                return Vector3.Distance(transform.position, collider1.gameObject.transform.position)
+                    .CompareTo(Vector3.Distance(transform.position, collider2.gameObject.transform.position));
+                
+            });
+            Interacted = interactableObjects[0].GetComponent<CustomInteractable>();
+            Interacted.InteractableObjectComponent.Interact(Interacted.gameObject);
+            Debug.Log("Has Interact");
+            IsInteracting = false;
+        }
+    }
     void OnGrab()
     {
-        if (!IsGrabbing)
+        if (!IsGrabbing) 
         {
             grabbableObjects.Sort(delegate(Collider collider1, Collider collider2)
             {
@@ -66,26 +96,33 @@ public class CustomGrabber : MonoBehaviour
                
             }
         }
-
-       
-        
     }
     
     // Update is called once per frame
     void Update()
     {
-        if (OVRInput.Get(OVRInput.Axis1D.PrimaryHandTrigger, m_controller) > 0.55f && !IsGrabbing)//grabBegin
+        if (OVRInput.Get(OVRInput.Axis1D.PrimaryHandTrigger, m_controller) > 0.55f)//grabBegin
         {
             OnGrab();
         }
-
-        if (Input.GetKey(KeyCode.G) && !IsGrabbing)
+        if (Input.GetKey(KeyCode.G))
         {
             OnGrab();
         }
         else if (OVRInput.Get(OVRInput.Axis1D.PrimaryHandTrigger, m_controller) < 0.30f)
         {
             OnRelease();
+        }
+
+        if (OVRInput.GetDown(OVRInput.RawButton.A) || OVRInput.GetDown(OVRInput.RawButton.X))
+        {
+            OnInteract();
+        }
+
+        if (Input.GetKeyDown(KeyCode.I))
+        {
+            Debug.Log("KeyCodeI");
+            OnInteract();
         }
 
     }

@@ -1008,6 +1008,7 @@
             <e p="CustomVRFunctions" t="Include">
               <e p="CustomGrabbable.cs" t="Include" />
               <e p="CustomGrabber.cs" t="Include" />
+              <e p="CustomInteractable.cs" t="Include" />
             </e>
             <e p="Data" t="Include">
               <e p="DataManager.cs" t="Include" />
@@ -1030,6 +1031,7 @@
               <e p="InteractableObjectComponent.cs" t="Include" />
               <e p="InteractableObjects.cs" t="Include" />
               <e p="InteractOnSeeObject.cs" t="Include" />
+              <e p="InteractOnTouchAndClickObject.cs" t="Include" />
               <e p="InteractOnUnseeObject.cs" t="Include" />
             </e>
             <e p="TeleportationSystem" t="Include">

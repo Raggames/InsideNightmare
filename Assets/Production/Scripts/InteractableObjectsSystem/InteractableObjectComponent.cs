@@ -12,6 +12,8 @@ namespace Production.Scripts.Entities
         public bool InteractionIsDone;
         public bool IsSeen;
 
+        public bool OneShotInteraction; //if you want the object to be interacted once => true
+        
         public bool IsActive;
         
         public InteractableObjects interactableObject;
@@ -36,6 +38,7 @@ namespace Production.Scripts.Entities
                         .OnFeedBackTrigger(feedBack.FeedBackDelay); //.FeedBackType.ActivateFeedBack(feedBack.feedBackcomponent);
                 }
                 Debug.Log("Interact");
+                if (OneShotInteraction) IsActive = false;
             }
         }
 
@@ -45,6 +48,7 @@ namespace Production.Scripts.Entities
             {
                 interactableObject.OnObjectIsSeen(go);
                 Debug.Log("See");
+                if (OneShotInteraction) IsActive = false;
             }
            
         }
@@ -55,6 +59,7 @@ namespace Production.Scripts.Entities
             {
                 interactableObject.OnObjectIsUnseen(go);
                 Debug.Log("UnSee");
+                if (OneShotInteraction) IsActive = false;
             }
             
 

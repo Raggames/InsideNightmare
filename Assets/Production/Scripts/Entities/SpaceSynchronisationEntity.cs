@@ -35,11 +35,11 @@ namespace Production.Scripts.Entities
 
         private void LateUpdate()
         {
-            if (OVRInput.GetDown(OVRInput.RawButton.A))
+            if (OVRInput.GetDown(OVRInput.RawButton.B))
             {
                 TranslateAndRotateVirtualSpaceRelativeToRealSpace();
             }
-           if (OVRInput.GetDown(OVRInput.RawButton.B))
+           if (OVRInput.GetDown(OVRInput.RawButton.Y))
             {
                 if (GuardianZone.Length > 4)
                 {
