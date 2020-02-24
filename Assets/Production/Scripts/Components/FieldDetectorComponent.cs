@@ -38,6 +38,7 @@ namespace Production.Scripts.Components
 
 			//public MeshFilter viewMeshFilter;
 			Mesh viewMesh;
+			public bool Teleporting;
 
 			void Start()
 			{
@@ -66,46 +67,51 @@ namespace Production.Scripts.Components
 			
 			void FindVisibleTargets()
 			{
-				List<Transform> DetectedLogicalObjects = new List<Transform>();
-				Collider[] collidersInRange = Physics.OverlapSphere (transform.position, viewRadius, targetMask);
-				for (int i = 0; i < collidersInRange.Length; i++) {
-					int stepCount = Mathf.RoundToInt(viewAngle * meshResolution);
-					float stepAngleSize = viewAngle / stepCount;
-					actualSeen = null;
-					bool see = false;
-					for (int j = 0; j <= stepCount; j++)
-					{
-						float angle = transform.eulerAngles.y - viewAngle / 2 + stepAngleSize * j;
-						Vector3 dir = DirFromAngle(angle, true);
-						RaycastHit hit;
-						if (Physics.Raycast(transform.position, dir, out hit, viewRadius))
+				if (!Teleporting)
+				{
+					List<Transform> DetectedLogicalObjects = new List<Transform>();
+					Collider[] collidersInRange = Physics.OverlapSphere (transform.position, viewRadius, targetMask);
+					for (int i = 0; i < collidersInRange.Length; i++) {
+						int stepCount = Mathf.RoundToInt(viewAngle * meshResolution);
+						float stepAngleSize = viewAngle / stepCount;
+						actualSeen = null;
+						bool see = false;
+						for (int j = 0; j <= stepCount; j++)
 						{
-							if (hit.transform.gameObject.CompareTag("LogicalCollider"))
+							float angle = transform.eulerAngles.y - viewAngle / 2 + stepAngleSize * j;
+							Vector3 dir = DirFromAngle(angle, true);
+							RaycastHit hit;
+							if (Physics.Raycast(transform.position, dir, out hit, viewRadius))
 							{
-								actualSeen = hit.transform;
-								Debug.DrawRay(transform.position, dir * hit.distance, Color.green);
-								see = true;
-							}
+								if (hit.transform.gameObject.CompareTag("LogicalCollider"))
+								{
+									actualSeen = hit.transform;
+									Debug.DrawRay(transform.position, dir * hit.distance, Color.green);
+									see = true;
+								}
 							
+							}
 						}
-					}
-					if (see && actualSeen != null && !DetectedLogicalObjects.Find(item => item.transform == actualSeen))
-					{
-						DetectedLogicalObjects.Add(actualSeen);
-						OnDetectLogicalObject.Raise(actualSeen.gameObject);
-					}
-
-					foreach (var obj in LastSeenObjects)
-					{
-						if (!DetectedLogicalObjects.Find(item => item.gameObject == obj.gameObject))
+						if (see && actualSeen != null && !DetectedLogicalObjects.Find(item => item.transform == actualSeen))
 						{
-							Debug.Log("Object is no more detected");
-							OnUndetectLogicalObject.Raise(obj.gameObject);
+							DetectedLogicalObjects.Add(actualSeen);
+							OnDetectLogicalObject.Raise(actualSeen.gameObject);
 						}
-					}
 
-					LastSeenObjects = DetectedLogicalObjects;
+						foreach (var obj in LastSeenObjects)
+						{
+							if (!DetectedLogicalObjects.Find(item => item.gameObject == obj.gameObject))
+							{
+								Debug.Log("Object is no more detected");
+								OnUndetectLogicalObject.Raise(obj.gameObject);
+							}
+						}
+
+						LastSeenObjects = DetectedLogicalObjects;
+					}
 				}
+
+				
 			}
 
 			void DrawFieldOfView()

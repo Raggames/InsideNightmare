@@ -7,6 +7,6 @@ namespace Production.Scripts
     {
         public bool NewGame = true;
         public int PatternIndex;
-        
+        public Vector3 playerPosition;
     }
 }

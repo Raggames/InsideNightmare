@@ -12,19 +12,29 @@ namespace Production.Scripts.Entities
         public List<PatternEntity> PatternEntities = new List<PatternEntity>();
         [SerializeField] private int PatternIndex;
         public bool SequenceIsComplete;
+
+        public bool IsPlayerTeleporting;
         private void Start()
         {
-            if(!GameData.NewGame) PatternIndex = GameData.PatternIndex;
-            else
-            {
-                PatternIndex = 0;
-                GameData.PatternIndex = 0;
-            }
+            if (GameData.NewGame) PatternIndex = 0; 
             InitializePatterns();
-            
-            
         }
 
+        #region Data
+
+        public void SaveSequencerEntity(GameData gameData)
+        {
+            GameData.PatternIndex = PatternIndex;
+        }
+
+        public void LoadSequencerEntity(GameData gameData)
+        {
+           PatternIndex = gameData.PatternIndex;
+        }
+        
+        #endregion
+        
+        
         void InitializePatterns()
         {
             for (int i = 0; i < PatternEntities.Count; i++)
@@ -42,39 +52,50 @@ namespace Production.Scripts.Entities
         
         public void ComputePatterns()
         {
-            if (!SequenceIsComplete)
+            if (!IsPlayerTeleporting)
             {
-                Debug.Log("ComputePatterns");
-                bool patternIsComplished = false;
-                foreach (var LogObject in PatternEntities[PatternIndex].InteractableObjects)
+                if (!SequenceIsComplete)
                 {
-                    if (LogObject.interactableObject.InteractionIsDone)
+                    Debug.Log("ComputePatterns");
+                    bool patternIsComplished = false;
+                    foreach (var LogObject in PatternEntities[PatternIndex].InteractableObjects)
                     {
-                        patternIsComplished = true;
+                        if (LogObject.interactableObject.InteractionIsDone)
+                        {
+                            patternIsComplished = true;
                         
+                        }
+                        if(LogObject.interactableObject.InteractionIsDone==false)
+                        {
+                            patternIsComplished = false;
+                            break;
+                        }
                     }
-                    if(LogObject.interactableObject.InteractionIsDone==false)
-                    {
-                        patternIsComplished = false;
-                        break;
-                    }
-                }
 
-                if (patternIsComplished)
-                {
-                    PatternEntities[PatternIndex].DesactivatePattern();
-                    PatternEntities[PatternIndex].PatternIsDone = true;
+                    if (patternIsComplished)
+                    {
+                        PatternEntities[PatternIndex].DesactivatePattern();
+                        PatternEntities[PatternIndex].PatternIsDone = true;
                     
-                    if(PatternIndex +1 == PatternEntities.Count) SequenceIsComplete = true;
-                    else GameData.PatternIndex++;
-                    
-                    PatternIndex = GameData.PatternIndex;
-                    PatternEntities[PatternIndex].ActivatePattern();
-                }
+                        if(PatternIndex +1 == PatternEntities.Count) SequenceIsComplete = true;
+                        else
+                        {
+                            PatternIndex++;
+                            Debug.Log("Changing PatternIndex to " + PatternIndex);
+                        }
+                        PatternEntities[PatternIndex].ActivatePattern();
+                    }
               
+                }
             }
+          
             
         }
-      
+
+
+        public void OnPlayerTeleport(bool state)
+        {
+            IsPlayerTeleporting = state;
+        }
     }
 }

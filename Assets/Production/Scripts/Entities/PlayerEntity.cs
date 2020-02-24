@@ -1,18 +1,33 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Production.Scripts;
 using UnityEngine;
 
 public class PlayerEntity : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+
+    [SerializeField] private GameData _gameData;
+    private OVRPlayerController _ovrPlayerController;
+
+    private void Awake()
     {
-        
+        _ovrPlayerController = GetComponentInParent<OVRPlayerController>();
     }
 
-    // Update is called once per frame
-    void Update()
+    #region Data
+    
+    public void SavePlayerEntity(GameData gameData)
     {
-        
+        _gameData.playerPosition = _ovrPlayerController.gameObject.transform.position;
     }
+
+    public void LoadPlayerEntity(GameData gameData)
+    {
+        _ovrPlayerController.transform.position = gameData.playerPosition;
+    }
+    
+    #endregion
+
+  
+    
 }
