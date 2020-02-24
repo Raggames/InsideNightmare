@@ -9,6 +9,8 @@ namespace Production.Scripts.Components
         public override void ActivateFeedBack(FeedBackComponent feedBack)
         {
             feedBack.GetComponent<AudioSource>().Play();
+            Debug.Log("playing Sound FeedBack");
+
         }
 
         public override void DeactivateFeedBack(FeedBackComponent feedBack)

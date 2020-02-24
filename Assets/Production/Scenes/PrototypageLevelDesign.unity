@@ -4058,7 +4058,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 663517771}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.5, y: -3.25, z: 4.25}
+  m_LocalPosition: {x: 9, y: -3.25, z: 4.25}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2006338012}
@@ -4159,6 +4159,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   InteractionIsDone: 0
   IsSeen: 0
+  OneShotInteraction: 0
   IsActive: 0
   interactableObject: {fileID: 11400000, guid: 925ead46028f42249903623fcb5ee9ac, type: 2}
   interactionIsDoneEvent: {fileID: 11400000, guid: 58fbea990b1ee98479adccc1b088da94,
@@ -7872,7 +7873,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!108 &1059514077
 Light:
   m_ObjectHideFlags: 0
@@ -7979,7 +7980,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1076210786}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.75, y: -3.25, z: 4.75}
+  m_LocalPosition: {x: -5, y: -3.25, z: 4.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2006338012}
@@ -8080,6 +8081,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   InteractionIsDone: 0
   IsSeen: 0
+  OneShotInteraction: 0
   IsActive: 0
   interactableObject: {fileID: 11400000, guid: 2cd5ef49cc6eecc4fbca3bd1d470645f, type: 2}
   interactionIsDoneEvent: {fileID: 11400000, guid: 58fbea990b1ee98479adccc1b088da94,
@@ -15503,7 +15505,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1488364648}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 4.5, y: -3.25, z: -1.5}
+  m_LocalPosition: {x: 4.5, y: -3.25, z: -4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 649530516}
@@ -15607,6 +15609,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   InteractionIsDone: 0
   IsSeen: 0
+  OneShotInteraction: 0
   IsActive: 0
   interactableObject: {fileID: 11400000, guid: 03549c8222f77db4fab8df45dbfedc2a, type: 2}
   interactionIsDoneEvent: {fileID: 11400000, guid: 58fbea990b1ee98479adccc1b088da94,
@@ -16382,6 +16385,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   InteractionIsDone: 0
   IsSeen: 0
+  OneShotInteraction: 0
   IsActive: 0
   interactableObject: {fileID: 11400000, guid: 534e5ef7b80fe934e8d74036ea5b62db, type: 2}
   interactionIsDoneEvent: {fileID: 11400000, guid: 58fbea990b1ee98479adccc1b088da94,

@@ -14,7 +14,7 @@ TagManager:
   - UI
   - 
   - 
-  - LogicalCollider
+  - Detectable
   - Obstacle
   - Grabbable
   - Player
